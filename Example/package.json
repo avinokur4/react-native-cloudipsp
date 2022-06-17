@@ -3,7 +3,9 @@
   "version": "0.4.6",
   "private": true,
   "scripts": {
-    "start": "node node_modules/react-native/local-cli/cli.js start"
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "run-ios": "node node_modules/react-native/local-cli/cli.js run-ios",
+    "run-android": "node node_modules/react-native/local-cli/cli.js run-android"
   },
   "dependencies": {
     "react": "16.9.0",
@@ -18,7 +20,7 @@
     "babel-jest": "24.9.0",
     "eslint": "6.8.0",
     "jest": "24.9.0",
-    "metro-react-native-babel-preset": "0.56.4",
+    "metro-react-native-babel-preset": "0.59.0",
     "react-test-renderer": "16.9.0",
     "mem": ">=4.0.0"
   },
